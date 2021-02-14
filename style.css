@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 33px;
+    background-color: blueviolet;
+    width: 300px;
+    text-align: center;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul{
+    margin-top: 5px;
+}
