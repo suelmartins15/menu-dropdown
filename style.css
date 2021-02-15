@@ -9,7 +9,7 @@ ul {
 }
 
 ul li {
-    display: inline-block;
+    
     float: left;
     margin-left: 33px;
     background-color: blueviolet;
